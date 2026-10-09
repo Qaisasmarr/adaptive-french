@@ -3,6 +3,10 @@
 Support the original headerless log so existing history remains usable.
 Reject malformed records explicitly: silently dropping attempts would change
 both the schedule and the statistics without the learner knowing.
+
+Public API: load_words and load_reviews validate source records; is_correct
+matches explicitly accepted translations; append_review saves one attempt.
+Stable word IDs connect the vocabulary CSV to the append-only review history.
 """
 import csv
 import math
