@@ -1,3 +1,8 @@
+"""Checks for quiz sessions, CSV compatibility, analytics, and review scheduling.
+
+Fixtures use temporary directories so running tests does not edit real history.
+Run the suite from the project root with unittest discover -s tests.
+"""
 import csv
 import io
 import subprocess
