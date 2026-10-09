@@ -1,1 +1,13 @@
+# macOS metadata
 .DS_Store
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+
+# Personal practice history and generated results
+data/reviews.csv
+models/
+exports/
+*.zip
