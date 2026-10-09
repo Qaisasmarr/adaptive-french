@@ -1,3 +1,8 @@
+"""Checks for prior-only features, chronological evaluation, and model persistence.
+
+Synthetic fixtures verify code behavior; they do not measure real retention or
+establish that prediction improves vocabulary learning.
+"""
 import math
 import subprocess
 import sys
