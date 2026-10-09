@@ -2,6 +2,10 @@
 
 Features for an attempt are computed BEFORE that attempt enters history.
 Prediction accuracy is distinct from the causal effect of a review policy.
+
+Public API: train evaluates an early-period fit on later attempts, then saves
+an all-data refit. probabilities estimates current recall for practiced words.
+Predictions rank eligible words; the rule-based scheduler still sets due dates.
 """
 import json
 import math
