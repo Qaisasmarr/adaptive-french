@@ -2,6 +2,10 @@
 
 Frozen dataclasses prevent accidental field changes as records move between
 modules. A Schedule is derived from reviews; it is not stored as source data.
+
+Word holds vocabulary, Review holds one timestamped answer, and Schedule
+holds the derived due date and interval. Review timing uses seconds; schedule
+intervals use minutes. IDs are strings and remain stable across file ordering.
 """
 from dataclasses import dataclass
 from datetime import datetime
