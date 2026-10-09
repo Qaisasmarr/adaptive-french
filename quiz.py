@@ -3,6 +3,10 @@
 This module connects the pieces and handles user interaction. Storage,
 scheduling, summaries, and model fitting live separately so they can be used
 and tested without an interactive quiz.
+
+Entry-point workflow: parse command options, load vocabulary and attempts,
+build review eligibility, then dispatch to practice, reporting, or training.
+Every answered prompt is saved before the session summary is printed.
 """
 import argparse
 import csv
