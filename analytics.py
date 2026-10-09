@@ -2,6 +2,10 @@
 
 These statistics describe past attempts. They do not establish how well a
 word will be remembered later or whether a scheduling policy is effective.
+
+Public API: summarize returns one statistics row per vocabulary item;
+export_stats writes those rows as CSV. Correctness is stored as 0 or 1, so
+summing results counts correct answers and averaging times reports seconds.
 """
 import csv
 from collections import defaultdict
