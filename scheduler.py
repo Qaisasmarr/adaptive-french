@@ -2,6 +2,10 @@
 
 These rules work before there is enough history to train a recall model.
 Keeping this module free of file I/O makes individual decisions easy to test.
+
+Public API: next_interval computes delays in minutes; build_schedule replays
+each word's history; select_due prioritizes overdue practiced words before
+unseen words. Review dates are derived each time the application starts.
 """
 from collections import defaultdict
 from datetime import datetime, timedelta
