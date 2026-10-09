@@ -1,11 +1,12 @@
 # Start here, Qais
 
-This folder is a separate working version of Adaptive French, based on your
-original quiz. Your Mac project and GitHub repository have not been edited.
+Follow this walkthrough to run Adaptive French, inspect saved answers, and
+trace the scheduling rules before training a recall model.
 
 ## 1. Run a five-word quiz
 
-Open this extracted folder in VS Code, open its terminal, and run:
+Open your cloned or extracted `adaptive-french` folder in VS Code, open its
+terminal, and run:
 
 ```bash
 python3 quiz.py quiz --limit 5
