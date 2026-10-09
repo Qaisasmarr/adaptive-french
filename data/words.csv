@@ -1,21 +1,21 @@
-id,french,english
-1,bonjour,hello
-2,merci,thank you|thanks
-3,maison,house|home
-4,chien,dog
-5,chat,cat
-6,pomme,apple
-7,livre,book
-8,voiture,car|automobile
-9,eau,water
-10,ami,friend
-11,école,school
-12,travail,work
-13,manger,to eat|eat
-14,boire,to drink|drink
-15,parler,to speak|speak|to talk|talk
-16,écouter,to listen|listen
-17,regarder,to watch|watch|to look|look
-18,aller,to go|go
-19,venir,to come|come
-20,pourtant,however|yet
+"id","french","english"
+"1","bonjour","hello"
+"2","merci","thank you|thanks"
+"3","maison","house|home"
+"4","chien","dog"
+"5","chat","cat"
+"6","pomme","apple"
+"7","livre","book"
+"8","voiture","car|automobile"
+"9","eau","water"
+"10","ami","friend"
+"11","école","school"
+"12","travail","work"
+"13","manger","to eat|eat"
+"14","boire","to drink|drink"
+"15","parler","to speak|speak|to talk|talk"
+"16","écouter","to listen|listen"
+"17","regarder","to watch|watch|to look|look"
+"18","aller","to go|go"
+"19","venir","to come|come"
+"20","pourtant","however|yet"
