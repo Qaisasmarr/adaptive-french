@@ -43,7 +43,7 @@ The docstrings and nearby comments explain the reasons behind the key steps.
 Requires Python 3.9 or later. Uses the standard library only; no installation,
 API key, or account is needed.
 
-Extract the ZIP, open a terminal in the `adaptive-french` folder, then run:
+Open a terminal in the cloned or extracted `adaptive-french` folder, then run:
 
 ```bash
 # macOS / Linux
@@ -87,10 +87,10 @@ python3 quiz.py quiz --data-dir /path/to/your/adaptive-french/data
 
 ## Bring your existing data
 
-This is a separate version based on your pasted quiz. It has not changed your
-Mac folder or your GitHub repository. Back up your original folder before
-moving files. You can point `--data-dir` at the old data folder, or copy its
-`words.csv` and `reviews.csv` into this version's `data` folder.
+Back up an existing project folder before migrating its vocabulary and review
+history. You can point `--data-dir` at the old data folder, or copy its
+`words.csv` and `reviews.csv` into this project's `data` folder. See
+[`data/README.md`](data/README.md) for the file formats and ID requirements.
 
 **Keep your original word IDs and their meanings.** Review history is joined
 to vocabulary by ID, not by row number. Replacing vocabulary with this sample
